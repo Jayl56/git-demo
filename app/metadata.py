@@ -4,7 +4,7 @@ TOKEN_URL = "http://169.254.169.254/latest/api/token"
 METADATA_URL = "http://169.254.169.254/latest/meta-data"
 
 
-def get_metadata():
+def get_metadata_region():
     # Obtener token para IMDSv2
     token = requests.put(
         TOKEN_URL,
